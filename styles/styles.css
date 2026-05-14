@@ -15,6 +15,20 @@ Table of Contents:
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
+    font-size: 16px;
+    background-color: yellow;
+    padding: 1rem;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
 }
 
 /*////////////////////////
@@ -33,3 +47,16 @@ body {
 /*////////////////////////
     2. Media Queries
 ////////////////////////*/
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 20px;
+        background-color: red;
+    }
+}
