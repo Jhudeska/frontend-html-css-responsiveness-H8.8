@@ -16,12 +16,12 @@ body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    background-color: yellow;
+    background-color: #F9C48B;
     padding: 1rem;
 }
 
 section {
-    background-color: #fff;
+    background-color: #FDEFEC;
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -50,13 +50,13 @@ img {
 @media screen and (min-width: 768px) {
     body {
         font-size: 18px;
-        background-color: orange;
+        background-color: #F69051;
     }
 }
 
 @media screen and (min-width: 992px) {
     body {
         font-size: 20px;
-        background-color: red;
+        background-color: #F26D40;
     }
 }
